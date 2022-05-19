@@ -1,0 +1,66 @@
+export const SalesFunnelTestData = {
+  "TEST CASE #1": {
+    isKeeping: true,
+    registeredOnYourName: true,
+    usedWhenBuying: true,
+    HSN: "0035",
+    TSN: "ALF",
+  },
+  "TEST CASE #2": {
+    isKeeping: true,
+    registeredOnYourName: true,
+    usedWhenBuying: false,
+    HSN: "0035",
+    TSN: "ALM",
+  },
+  "TEST CASE #3": {
+    isKeeping: true,
+    registeredOnYourName: false,
+    usedWhenBuying: true,
+    HSN: "0035",
+    TSN: "AYJ",
+  },
+
+  "TEST CASE #4": {
+    isKeeping: true,
+    registeredOnYourName: false,
+    usedWhenBuying: false,
+    HSN: "4000",
+    TSN: "327",
+  },
+  "TEST CASE #5": {
+    isKeeping: false,
+    registeredOnYourName: true,
+    usedWhenBuying: true,
+    HSN: "4136",
+    TSN: "AAX",
+  },
+  "TEST CASE #6": {
+    isKeeping: false,
+    registeredOnYourName: true,
+    usedWhenBuying: false,
+    HSN: "4136",
+    TSN: "BBI",
+  },
+  "TEST CASE #7": {
+    isKeeping: false,
+    registeredOnYourName: false,
+    usedWhenBuying: true,
+    HSN: "0583",
+    TSN: "436",
+  },
+  "TEST CASE #8": {
+    isKeeping: false,
+    registeredOnYourName: false,
+    usedWhenBuying: false,
+    HSN: "0583",
+    TSN: "AEX",
+  },
+  "TEST CASE #9": {
+    isKeeping: true,
+    registeredOnYourName: true,
+    usedWhenBuying: true,
+    HSN: "0583",
+    TSN: "AHF",
+  },
+};

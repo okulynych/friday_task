@@ -1,0 +1,23 @@
+{
+  "name": "friday_home_task",
+  "version": "1.0.0",
+  "description": "FRIDAY home task",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test-frontend": "testcafe \"chrome --start-maximized\" ./tests/frontend --assertion-timeout 20000 --skip-js-errors",
+    "test-frontend:report": "npm run test-frontend -- --reporter html:reports/frontend/report.html  --screenshots path=reports/frontend/screenshots,fullPage=true,takeOnFails=true --video reports/frontend/videos",
+    "test-frontend-ci": "testcafe \"chrome:headless --start-maximized\" ./tests/frontend --assertion-timeout 20000 --skip-js-errors"
+  },
+  "author": "Oleksandra Mikhnenko",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.18.6"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
